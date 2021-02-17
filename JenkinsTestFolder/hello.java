@@ -14,7 +14,7 @@ public class hello {
     private static Properties getProperties(){
 
         try {
-            FileReader reader=new FileReader(System.getProperty("user.dir") + "JenkinsTestFolder/a.properties");
+            FileReader reader=new FileReader(System.getProperty("user.dir") + "/JenkinsTestFolder/a.properties");
             Properties p=new Properties();
             p.load(reader);
             return p;
