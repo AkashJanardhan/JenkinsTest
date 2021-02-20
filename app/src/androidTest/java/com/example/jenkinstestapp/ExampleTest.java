@@ -29,6 +29,7 @@ public class ExampleTest {
     @Test
     public void startApp(){
         openApp(mDevice,"com.android.vending");
+        mDevice.pressBack();
     }
 
     private static void openApp(UiDevice mDevice,String packageName){
