@@ -32,7 +32,7 @@ public class ExampleTest {
     public void startApp(){
         openApp(mDevice,"com.android.vending");
         mDevice.pressBack();
-        //added code to test app install from playstore
+        //added code to test app install from playsto
         install("com.zenprise");
     }
 
