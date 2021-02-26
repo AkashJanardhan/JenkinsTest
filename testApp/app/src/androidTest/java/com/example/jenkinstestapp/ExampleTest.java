@@ -29,12 +29,13 @@ public class ExampleTest {
     }
 
     @Test
-    public void startApp(){
+    public void startApp1(){
         openApp(mDevice,"com.android.vending");
         mDevice.pressBack();
-        //added code to test app install from playsto
-        install("com.zenprise");
     }
+
+
+    //./gradlew app:connectedDebugAndroidTest -Pandroid.testInstrumentationRunnerArguments.class=com.example.jenkinstestapp.ExampleTest#startApp1
 
     public void install(String packageId){
         openPlayStorePageOfApp(packageId);
