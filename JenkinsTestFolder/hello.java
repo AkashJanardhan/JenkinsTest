@@ -1,4 +1,3 @@
-package JenkinsTestFolder;
 import java.util.*;
 import java.io.*;
 
